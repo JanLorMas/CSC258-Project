@@ -20,11 +20,6 @@ m:          .word 2147483648 # Modulus (2^31)
 .text
 .globl _start
 
-# NOTE FOR TA!
-# MODIFTICATIONS
-# Unfortunately, I was not able to implement any modifications.
-# As a result, the user guide omits the information.
-
 _start:
     # TODO: Generate locations for the character, box, and target. Static
     # locations in memory have been provided for the (x, y) coordinates 
